@@ -54,7 +54,7 @@ class Colors:
 
 
 # Framework metadata
-FRAMEWORK_VERSION = "1.0.0"
+FRAMEWORK_VERSION = "0.0.1"
 AUTHOR = "Androduct Team"
 BANNER = f"""{Colors.RED}
     ___              __                __           __ 

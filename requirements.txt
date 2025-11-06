@@ -1,0 +1,33 @@
+# Androduct Framework Dependencies
+
+# Core dependencies
+requests>=2.28.0
+# sqlite3 is built-in with Python
+
+# Security and command parsing
+shlex  # Built-in with Python
+
+# Optional dependencies for enhanced functionality
+# Uncomment as needed
+
+# For Bluetooth operations
+# pybluez>=0.23
+
+# For network operations  
+# scapy>=2.4.5
+# python-nmap>=0.7.1
+
+# For advanced payload generation
+# pycryptodome>=3.15.0
+
+# For GUI (to be implemented later)
+# pyqt6  # Usually built-in
+
+# For advanced parsing
+# beautifulsoup4>=4.11.0
+# lxml>=4.9.0
+
+# Development dependencies
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0

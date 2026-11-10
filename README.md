@@ -1,8 +1,8 @@
-*** Androduct Framework (Play on abduct) ***
+## Androduct Framework (Play on abduct)
 
+A Python-based Android security and penetration testing tool designed for ADB (Android Debug Bridge) exploitation, APK patching, and mobile red team operations Gith
 
 ## Project Structure
-
 
 <details>
 <summary>📂 Click to expand</summary>
@@ -48,14 +48,12 @@ Ensure an android device is connected via USB or WiFi
 python main.py
 ```
 
-
-
 ## Basic ADB Functionalities
+
 - shell
-- pull_file
-- push_file
-- screen_record
-- screenshot
+- File operations (pull/push)
+- Screen_record
+- Screenshot
 - Install an apk on a device
 - Extract apk from app  
 - Remove device password
@@ -78,6 +76,7 @@ python main.py
 
 
 ## Network Recon & MITM
+
 - ARP scan for LAN devices	Add nmap wrapper or use scapy
 - Auto MiTM setup (evil twin / rogue AP)	Integrate airgeddon or wifiphisher
 - DNS spoofing / redirection	ettercap, dnsspoof, or mitmproxy
@@ -87,6 +86,7 @@ python main.py
 
 
 ## Red Team Persistence
+
 - Set up persistent reverse shell	Inject startup script or abuse BOOT_COMPLETED
 - Bypass lockscreen (via TWRP or exploits)	If rooted, edit settings.db
 - Replace legit APK with trojanized one	Uninstall, repackage, and install
@@ -95,7 +95,7 @@ python main.py
 - Encrypt & exfil stolen data	GPG + remote upload via ADB+curl or scp
 
 
-## 🧰 Toolbox Integration
+## Toolbox Integration
 
 - Payload Deployment	Auto-generate APK payloads via msfvenom or evil-droid
 - C2 Communication	Tie in with Cobalt Strike, Sliver, or Mythic
@@ -111,19 +111,15 @@ python main.py
 - ADB command obfuscation	Randomize command structure, avoid detection by EDR-like tools
 
 
-### ✅Dependencies
+### Dependencies
+
 - apktool (in your PATH)
 
 - jarsigner (comes with JDK)
 
 - debug.keystore (generate with keytool if missing)
 
-- Your patches/ folder with valid .smali templates
+- Your `patches/` folder with valid `.smali` templates
 
-
-
-
-
-
-
+> This repo is for educational purposes, research, or authorized testing only. 
 
